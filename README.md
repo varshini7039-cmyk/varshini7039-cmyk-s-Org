@@ -1,11 +1,38 @@
-<div align="center">
+# V Varshini — Premium Personal Portfolio Website
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+This repository contains the personal portfolio website for **V Varshini**, an Information Science and Engineering student at GM University, Karnataka, India.
 
-  <h1>Built with AI Studio</h2>
+## 🚀 Quick Setup & Development
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+```bash
+# Install dependencies
+npm install
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+# Start local development server
+npm run dev
 
-</div>
+# Build production bundle
+npm run build
+```
+
+## 📂 Project Structure & Customization
+
+All personal details, project descriptions, skills, education records, and contact links are centralized in a single file for easy updates:
+
+- **Centralized Data**: `/src/data/portfolioData.ts`
+  - Modify `PERSONAL_INFO` to update bio, email, or social URLs.
+  - Modify `PROJECTS` to add new repositories, links, or screenshots.
+  - Modify `SKILL_CATEGORIES` to add newly learned tools or frameworks.
+  - Modify `ACHIEVEMENTS` & `EDUCATION_HISTORY` as academic milestones progress.
+
+## 🎨 Theme & Typography
+
+- **Palette**: Deep Obsidian/Charcoal (`#09080e`, `#110e1a`) with Cool Pink (`#f43f5e`, `#fb7185`) and subtle violet/blue accents.
+- **Fonts**: `Plus Jakarta Sans` (Body prose), `Outfit` (Headings & display type), and `JetBrains Mono` (Tabular numerals & metadata).
+- **Design Standard**: Compliant with zero-pill metadata discipline, WCAG contrast, and responsive layout math.
+
+## 🌐 Production Deployment
+
+To publish this portfolio to platforms like Vercel, Netlify, or GitHub Pages:
+1. Run `npm run build` to generate the production `dist/` directory.
+2. Link your GitHub repository (`varshini7039-cmyk`) to Vercel or Netlify for automatic continuous deployment.
